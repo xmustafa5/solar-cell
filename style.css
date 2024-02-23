@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+.contianer{
+    background-image: url(image/backgroundOne.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    
+}
+.card{
+     background-color: transparent;
+     backdrop-filter: blur(4px);
+     padding: 14px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 9px;
+    border-radius:20px ;
+    box-shadow: 10px 20px 50px 10px;
+    padding: 50px;
+}
+.title{
+    font-family: "Marhey", sans-serif;
+    color: white;
+    font-style: italic;
+}
+label{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+input::placeholder{
+    padding-left: 10px;
+}
+select{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+button{
+    margin-top: 8px;
+    width: 80%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(29, 187, 255);
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+    border: none;
+
+}
+p{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+    
+    label {
+      font-size: 12px;
+    }
+  }
